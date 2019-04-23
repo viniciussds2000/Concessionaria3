@@ -15,10 +15,13 @@
             background-color: white;
             padding-bottom: 10px;
         }
-
+        #logotest{
+            background-image: url("/imagens/Teique only.PNG");
+            background-size: auto;
+        }
         #logo{
             font-size: 35px;
-            font-family: "Eras Bold ITC";
+            font-family: "Arial Black";
             color: darkblue;
             text-align: left;
         }
@@ -39,14 +42,17 @@
         #corpo{
             box-sizing: border-box;
             background-color: white;
+            margin-top: 60px;
+            padding: 30px;
         }
 
         #menu{
             color: grey;
             font-size: 20px;
-            text-align: right;
-
-
+            text-align: center;
+        }
+        label.menu{
+            text-align: center;
         }
         #logar{
             font-size: 20px;
@@ -55,7 +61,9 @@
             background-color: darkblue;
             padding: 10px;
             color: white;
+            text-align: right;
         }
+
     </style>
 </head>
 <body>
@@ -63,17 +71,21 @@
         <header>
             <table>
                 <tr>
-                    <td><div id="logo">WEBMOTORS</div></td>
+                    <td><div id="logo">TeiqueOnly</div></td>
 
 
                     <td><div id="menu">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Busca: <input type="text" name="busca"></label>
+                        <label>Busca: <input type="text" name="busca"></label>
                     </div></td>
+                    <td>
+
+                    </td>
                 </tr>
                         <div id="logar">
-                            <form>
+                            <form action="/adm_page">
                                 Login: <input type="text" name="login"><br>
-                                Senha: <input type="text" name="senha">
+                                Senha: <input type="text" name="senha"><br>
+                                <input  type="submit" value="Entrar">
                             </form>
                     </div>
             </table>
@@ -81,10 +93,30 @@
     </div>
 
     <div id="corpo">
-                <h2>BONITA<br>
+                  <!--BONITA<br>
             Anuncio de carros com foto (sÓ TOP 10)<br>
             Login (popout ou não)<br>
-                    Pesquisar carros</h2>
+                    Pesquisar carros-->
+        <table>
+
+            <tr>
+
+                <td>
+                        <img src="https://s.aolcdn.com/commerce/autodata/images/USC80CHC061A021001.jpg" width="500" height="340" border="10">
+                </td>
+
+                <td align="center">
+                     <h1>Faça teste drive</h1>
+                    <h2>Faça um test drive, ganhe um Vale-Cinema e ainda concorra a 5 Hyundai 0km. Aproveite.</h2>
+                </td>
+            </tr>
+
+                </td>
+
+            </tr>
+        </table>
+
+
     </div>
 
 
