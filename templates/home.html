@@ -27,7 +27,7 @@
         }
 
   body{
-      
+
             background-color: #b7bac9;
             width: 100%;
             height: 100%;
@@ -38,13 +38,53 @@
             margin-left: 80px;
             margin-right: 80px;
         }
+        #slider{
+            box-sizing: border-box;
+            background-color: white;
+            margin: 60px 15px 0px 15px;
+            height:550px ;
+            width: 1250px;
 
+        }
+        #slider img#slide{
+            height: 550px ;
+            width: 1250px;
+
+
+
+
+        }
         #corpo{
             box-sizing: border-box;
             background-color: white;
-            margin-top: 60px;
+            margin-top: 50px;
             padding: 30px;
-            padding-top: 100px;
+            padding-top: 50px;
+        }
+
+        #corpo h1{
+            color: darkblue;
+            font-size: 50px;
+            font-family: "Arial Black";
+            margin-bottom: 30px;
+        }
+
+        #corpo h2{
+            color: darkblue;
+            font-size: 35px;
+            font-family: "Arial Black";
+
+        }
+
+        #corpo img#topimg{
+            height: 450px;
+            width: 600px;
+            box-shadow: 1px 1px 5px .5px ;
+        }
+
+        #corpo #topdisc{
+            margin: 5px;
+            position: ;
         }
 
         #menu{
@@ -65,14 +105,8 @@
             color: white;
             text-align: right;
         }
-        img.topcars{
-            width: 600px;
-            height: 440px;
-            border: 10px;
-            display: block;
-            box-shadow: 3px 2px 50px 3px black;
-        }
-        in
+
+
 
     </style>
 </head>
@@ -102,12 +136,73 @@
         </header>
     </div>
 
-    <div id="corpo">
+
                   <!--BONITA<br>
             Anuncio de carros com foto (sÓ TOP 10)<br>
             Login (popout ou não)<br>
                     Pesquisar carros-->
-        <table>
+    <div id="slider">
+       <img id="slide" src="https://imgcdn0.searchoptics.com/cdno/n/q75/https://blueprint-cdn.searchoptics.com.br/60240f87af6f398961710bebdea69a79/Creta100KT1Desktop_1920X823.png">
+    </div>
+        <div id="corpo" align="center">
+            <h1>Mais vendidos</h1>
+            <table id="top" border="1">
+                <tr>
+                <td>
+                    <img id="topimg" src="https://4d5f5de51693cfc684da-cb2084ba1892d6fbfdf4063f34f87a51.ssl.cf1.rackcdn.com/WP0CF2A7XJL195219/c83ce30ad6b35a2aa1d6f85930aa732a.jpg">
+
+                </td>
+                    <div id="topdisc">
+                <td>
+                    <h2>TOP 1</h2>
+                        <label>
+                            DASJIDASJIDASJIDASJIDASJIDASIDASJIDJAISDJAISDASJIJI
+                        </label>
+                </td>
+                    </div>
+                    </tr>
+
+
+                <tr>
+                    <td>
+                    dashudasuhdhausdhausdhaushudashudashudashudashudashudas
+                </td>
+                    <td>
+                        <img id="topimg" src="http://planetcarsz.com/assets/uploads/BMW%20I8%20COUPE%202019%2001.jpg">
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <img id="topimg" src="http://bestcars.uol.com.br/bc/wp-content/uploads/2014/07/Chevrolet-Corvette-Stingray-Callaway-01.jpg">
+                </td>
+                <td>
+                        <label>
+                            DASJIDASJIDASJIDASJIDASJIDASIDASJIDJAISDJAISDASJIJI
+                        </label>
+                </td>
+                    </tr>
+                <tr>
+                    <td>
+                    dashudasuhdhausdhausdhaushudashudashudashudashudashudas
+                </td>
+                    <td>
+                        <img id="topimg" src="https://fotos.jornaldocarro.estadao.com.br/uploads/2019/01/26151155/Ferrari-488_Spider-2016-1280-03-1-1160x817.jpg">
+                    </td>
+                </tr>
+                <td>
+                    <img id="topimg" src="http://s2.glbimg.com/Fxgyx7VTsPMj7Z5aLdUhy131Q8U=/620x400/e.glbimg.com/og/ed/f/original/2013/01/21/03_2.jpg">
+                </td>
+                <td>
+                        <label>
+                            DASJIDASJIDASJIDASJIDASJIDASIDASJIDJAISDJAISDASJIJI
+                        </label>
+                </td>
+
+                </tr>
+            </table>
+            </div>
+
+       <!-- <table>
 
             <tr>
 
@@ -115,19 +210,21 @@
                     <img src="https://cdn-ds.com/stock/2008-Chevrolet-Corvette-Z06-Akron-OH/seo/ECL2585-1G1YY26E285104412/sz_515205/w_1280/h_853/1G1YY26E285104412_28fa2e85c06e08d4.jpg" class="topcars">
                 </td>
 
-                <td align="center">
-                     <h1>2008 Chevrolet Corvette Z06 </h1>
-                    <h2>
-                        Tipo: Usado<br>
-                        Modelo: Corvette<br>
-                        Cor: Preto<br>
-                        2 portas<br>
-                    </h2>
-                    <input type="submit" value="Reservar" style="background-color: darkblue; color: white; height: 45px; width: 120px">
-                </td>
+                <div class="top_texto" align="left">
+                        <td>
+                         <h1>2008 Chevrolet Corvette Z06 </h1>
+                        <h2>
+                            Tipo: Usado<br>
+                            Modelo: Corvette<br>
+                            Cor: Preto<br>
+                            2 portas<br>
+                        </h2>
+                        <input type="submit" value="Reservar" style="background-color: darkblue; color: white; height: 45px; width: 120px">
+                    </td>
+                </div>
             </tr>
             <tr>
-                <td align="center">
+                <td align="right">
                      <h1>Top 2</h1>
 
                 </td>
@@ -139,7 +236,7 @@
                 </td>
 
             </tr>
-        </table>
+        </table>'''-->
 
 
     </div>
